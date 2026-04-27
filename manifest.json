@@ -1,0 +1,22 @@
+{
+  "name": "kingmj-skills-marketplace",
+  "version": "1.0.0",
+  "description": "Private Git-based marketplace for portable AI skills compatible with any agent that can read Markdown-based skill packages.",
+  "repositoryFormat": "git-skill-marketplace",
+  "skillsRoot": "skills",
+  "compatibleAgents": [
+    "any"
+  ],
+  "installExample": "npx skills add <git-url> --skill test-driven-development",
+  "skills": [
+    {
+      "name": "test-driven-development",
+      "path": "skills/test-driven-development",
+      "entry": "skills/test-driven-development/SKILL.md",
+      "workflow": "skills/test-driven-development/workflow.md",
+      "checklist": "skills/test-driven-development/checklist.md",
+      "examplesDir": "skills/test-driven-development/examples",
+      "description": "Implement features with a strict red-green-refactor workflow."
+    }
+  ]
+}
