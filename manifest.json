@@ -17,6 +17,15 @@
       "checklist": "skills/test-driven-development/checklist.md",
       "examplesDir": "skills/test-driven-development/examples",
       "description": "Implement features with a strict red-green-refactor workflow."
+    },
+    {
+      "name": "test-impact-analysis",
+      "path": "skills/test-impact-analysis",
+      "entry": "skills/test-impact-analysis/SKILL.md",
+      "workflow": "skills/test-impact-analysis/workflow.md",
+      "checklist": "skills/test-impact-analysis/checklist.md",
+      "examplesDir": "skills/test-impact-analysis/examples",
+      "description": "Analyze PR impact with call graph and DI hints, then produce runnable Markdown test cases with or without domain context."
     }
   ]
 }
